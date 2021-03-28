@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int time,speed,distance;
+    float fuel;
+
+    scanf("%d %d",&time,&speed);
+
+    distance = speed * time;
+    fuel = (float)distance/12;
+
+    printf("%.3f\n",fuel);
+
+    return 0;
+}
